@@ -9,8 +9,8 @@ import {
 
 export function CarouselDemo() {
   const images = [
-    "/images/rr-1.jpg", // Slide 1
-    "/images/lx-1.jpg", // Slide 2
+    "/images/rr-1.jpg",
+    "/images/lx-1.jpg",
     "/images/lm-1.jpg",
     "/images/fr-1.jpg",
     "/images/rr-2.jpg",
@@ -18,7 +18,7 @@ export function CarouselDemo() {
 
   return (
     <section className="w-full border-b">
-      <div className="container mx-auto px-4 md:px-6 py-6 relative">
+      <div className="my-container py-6 relative">
         <Carousel
           opts={{
             align: "start",
@@ -29,7 +29,7 @@ export function CarouselDemo() {
           <CarouselContent>
             {images.map((img, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-2">
+                <div className="py-8">
                   <Card className="overflow-hidden rounded-xl shadow-sm">
                     <CardContent className="relative aspect-ratio: 16/9 p-0">
                       <img

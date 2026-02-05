@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 /**
  * AboutDetailedSection
@@ -71,7 +72,7 @@ export const AboutDetailedSection = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <div className="container mx-auto px-6 lg:px-12">
+      <div className="my-container">
         {/* Header */}
         <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-8">
           <div className="flex-1">
@@ -364,12 +365,12 @@ export const AboutDetailedSection = () => {
                 >
                   Request Quote
                 </button>
-                <a
-                  href="/contact"
+                <Link
+                  to="/contact"
                   className="px-4 py-2 border rounded-lg border-gray-200 dark:border-gray-700"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>

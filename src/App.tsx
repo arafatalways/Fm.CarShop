@@ -1,12 +1,9 @@
+import { FrontLayoutPage } from "@/components/modules/FrontLayoutPage";
+
 function App() {
   return (
     <>
-      {/* <Navbar />
-      <CarouselDemo />
-      <ProductInform /> */}
-      {/* <ContactFormSection /> */}
-      {/* <ProductCategory />
-      <Footer /> */}
+      <FrontLayoutPage />
     </>
   );
 }

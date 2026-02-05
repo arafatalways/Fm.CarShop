@@ -1,8 +1,8 @@
-import { AboutSection } from "@/layouts/AboutSection";
-import { AllProducts } from "@/layouts/AllProducts";
-import { CarouselDemo } from "@/layouts/Carousel";
-import { ProductCategory } from "@/layouts/ProductCategory";
-import { ProductInform } from "@/layouts/ProductInform";
+import { AboutSection } from "@/components/layouts/AboutSection";
+import { AllProducts } from "@/components/layouts/AllProducts";
+import { CarouselDemo } from "@/components/layouts/Carousel";
+import { ProductCategory } from "@/components/layouts/ProductCategory";
+import { ProductInform } from "@/components/layouts/ProductInform";
 
 export const HomePage = () => {
   return (

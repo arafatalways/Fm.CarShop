@@ -129,7 +129,7 @@ export const AllProducts = () => {
 
   return (
     <section className="w-full py-14 bg-gray-50 dark:bg-gray-900">
-      <div className="container mx-auto px-6">
+      <div className="my-container">
         {/* HEADING */}
         <h2 className="text-center text-3xl md:text-4xl font-bold mb-10 text-gray-800 dark:text-white">
           Explore <span className="text-blue-600">All Car Models</span>

@@ -39,7 +39,7 @@ export const ProductInform = () => {
 
   return (
     <section className="w-full py-16 --tw-gradient-stops from-gray-50 to-gray-200 dark:from-gray-900 dark:to-black relative overflow-hidden">
-      <div className="container mx-auto px-8 relative z-10">
+      <div className="my-container relative z-10">
         <h2 className="w-full flex justify-center text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Why Choose{" "}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-red-500 ml-2">

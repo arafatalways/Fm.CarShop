@@ -87,7 +87,7 @@ export const ProDeta1 = () => {
             </button>
           </div>
 
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-xl shadow-lg hover:bg-blue-700 transition">
+          <button className="px-6 py-3 font-semibold bg-blue-600 text-white rounded-xl shadow-lg hover:bg-blue-700 transition">
             Add To Cart
           </button>
         </div>

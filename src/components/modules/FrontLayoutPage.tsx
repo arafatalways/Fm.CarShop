@@ -1,5 +1,5 @@
-import { Footer } from "@/layouts/Footer";
-import Navbar from "@/layouts/Navbar";
+import { Footer } from "@/components/layouts/Footer";
+import Navbar from "@/components/layouts/Navbar";
 import { Outlet } from "react-router";
 
 export const FrontLayoutPage = () => {

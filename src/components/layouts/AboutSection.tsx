@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export const AboutSection = () => {
   return (
     <section className="w-full bg-gray-50 dark:bg-gray-900 py-16">
-      <div className="container mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-10 items-center">
+      <div className="my-container grid md:grid-cols-2 gap-10 items-center">
         {/* LEFT IMAGE */}
         <div className="relative group">
           <img
